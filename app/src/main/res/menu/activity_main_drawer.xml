@@ -6,15 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:itemTextAppearance="@style/some_id"
+            android:title="&#160;&#160;&#160;&#160; Мои бонусы">
+        </item>
+
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:itemTextAppearance="@style/some_id"
+            android:title="&#160;&#160;&#160;&#160; Мои карты" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:itemTextAppearance="@style/some_id"
+            android:title="&#160;&#160;&#160;&#160; События" />
+        <item
+            android:id="@+id/nav_delivery"
+            android:itemTextAppearance="@style/some_id"
+            android:title="&#160;&#160;&#160;&#160; Доставка" />
+        <item
+            android:id="@+id/nav_data"
+            android:itemTextAppearance="@style/some_id"
+            android:title="&#160;&#160;&#160;&#160; Личные данные" />
     </group>
+
+
 </menu>

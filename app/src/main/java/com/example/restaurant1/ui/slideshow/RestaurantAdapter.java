@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -54,9 +55,11 @@ public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.Re
 
     public class RestaurantViewHolder extends RecyclerView.ViewHolder {
         public ImageView imageViewRes;
+        public TextView TV;
         public RestaurantViewHolder(@NonNull View itemView) {
             super(itemView);
             imageViewRes = (ImageView) itemView.findViewById(R.id.imageViewRes);
+            TV = (TextView) itemView.findViewById(R.id.TV);
 
         }
     }

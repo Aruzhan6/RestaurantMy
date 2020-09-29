@@ -54,7 +54,7 @@ public class SlideshowFragment extends Fragment {
             public void onResponse(Call<RestaurantResponse> call, Response<RestaurantResponse> response) {
                 if (response.isSuccessful()) {
                     restaurantAdapter.setData(response.body().data);
-                    Toast.makeText(getActivity().getApplicationContext(), "OK", Toast.LENGTH_LONG).show();
+                   // Toast.makeText(getActivity().getApplicationContext(), "OK", Toast.LENGTH_LONG).show();
                 }else {
                     Toast.makeText(getActivity().getApplicationContext(), "An error Occured ", Toast.LENGTH_LONG).show();
                 }
